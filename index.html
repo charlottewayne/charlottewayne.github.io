@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic website of Qiulan Tao, PhD student in Economics at Indiana University Bloomington." />
+  <title>Qiulan Tao | Economics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Qiulan Tao</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#economy">U.S. Economy</a>
+        <a href="#conferences">Conferences</a>
+        <a href="cv.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Economics PhD Student</p>
+        <h1>Qiulan Tao</h1>
+        <p class="hero-subtitle">Indiana University Bloomington</p>
+        <p class="hero-text">
+          I am a PhD student in Economics at Indiana University Bloomington. My research interests include
+          behavioral macroeconomics, expectations formation and belief heterogeneity, heterogeneous-agent
+          DSGE modeling, and policy transmission.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#research">Research</a>
+          <a class="button secondary" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+          <a class="button secondary" href="mailto:taoq@iu.edu">Email</a>
+        </div>
+      </div>
+      <div class="portrait-card" aria-label="Profile photo placeholder">
+        <div class="portrait-placeholder">Photo</div>
+      </div>
+    </section>
+
+    <section id="about" class="section container two-col">
+      <div>
+        <p class="section-kicker">About</p>
+        <h2>Macroeconomics, expectations, beliefs, and policy transmission.</h2>
+      </div>
+      <div>
+        <p>
+          I am pursuing a PhD in Economics at Indiana University Bloomington. Before Indiana, I studied
+          econometrics and mathematical economics at the London School of Economics and economics at
+          Nanjing University.
+        </p>
+        <p class="muted">
+          This site is a living home for my research, teaching, notes, and tools for following the U.S. economy
+          and academic conferences.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <div class="section-head">
+          <h2>Research interests</h2>
+          <p>Current work and future papers will be added here as they develop.</p>
+        </div>
+        <div class="cards four">
+          <article class="card">
+            <h3>Behavioral Macroeconomics</h3>
+            <p>Behavioral mechanisms and heterogeneity in aggregate economic dynamics.</p>
+          </article>
+          <article class="card">
+            <h3>Expectations & Beliefs</h3>
+            <p>Expectations formation, belief heterogeneity, and their macroeconomic implications.</p>
+          </article>
+          <article class="card">
+            <h3>Heterogeneous-Agent Models</h3>
+            <p>Heterogeneous-agent DSGE modeling, including HANK frameworks.</p>
+          </article>
+          <article class="card">
+            <h3>Policy Transmission</h3>
+            <p>How monetary and other macroeconomic policies propagate through heterogeneous economies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section container">
+      <p class="section-kicker">Teaching</p>
+      <div class="section-head">
+        <h2>Selected teaching experience</h2>
+        <p>Graduate teaching experience at Indiana University Bloomington.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>Aug 2025</span>
+          <div>
+            <h3>Instructor · PhD Math Camp</h3>
+            <p>Department of Economics, Indiana University Bloomington</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span>Aug–Oct 2025</span>
+          <div>
+            <h3>Teaching Assistant · Optimization Theory</h3>
+            <p>Graduate Core Course, Department of Economics, Indiana University Bloomington</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="economy" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">U.S. Economy</p>
+        <div class="section-head">
+          <h2>Macro dashboard</h2>
+          <p>A compact view of U.S. growth, prices, labor-market conditions, and monetary policy. Charts update from FRED.</p>
+        </div>
+        <div class="macro-grid">
+          <article class="macro-card">
+            <div class="macro-card-head"><div><span>Growth</span><h3>Real GDP Growth</h3></div><a href="https://fred.stlouisfed.org/series/A191RL1Q225SBEA" target="_blank" rel="noopener">FRED ↗</a></div>
+            <img loading="lazy" src="https://fred.stlouisfed.org/graph/fredgraph.png?id=A191RL1Q225SBEA&cosd=2019-01-01" alt="U.S. real GDP growth chart from FRED">
+          </article>
+          <article class="macro-card">
+            <div class="macro-card-head"><div><span>Prices</span><h3>Consumer Price Index</h3></div><a href="https://fred.stlouisfed.org/series/CPIAUCSL" target="_blank" rel="noopener">FRED ↗</a></div>
+            <img loading="lazy" src="https://fred.stlouisfed.org/graph/fredgraph.png?id=CPIAUCSL&cosd=2019-01-01" alt="U.S. CPI chart from FRED">
+          </article>
+          <article class="macro-card">
+            <div class="macro-card-head"><div><span>Labor</span><h3>Unemployment Rate</h3></div><a href="https://fred.stlouisfed.org/series/UNRATE" target="_blank" rel="noopener">FRED ↗</a></div>
+            <img loading="lazy" src="https://fred.stlouisfed.org/graph/fredgraph.png?id=UNRATE&cosd=2019-01-01" alt="U.S. unemployment rate chart from FRED">
+          </article>
+          <article class="macro-card">
+            <div class="macro-card-head"><div><span>Monetary Policy</span><h3>Effective Federal Funds Rate</h3></div><a href="https://fred.stlouisfed.org/series/FEDFUNDS" target="_blank" rel="noopener">FRED ↗</a></div>
+            <img loading="lazy" src="https://fred.stlouisfed.org/graph/fredgraph.png?id=FEDFUNDS&cosd=2019-01-01" alt="Federal funds rate chart from FRED">
+          </article>
+        </div>
+        <p class="data-note">Source: Federal Reserve Economic Data (FRED). The charts are loaded directly from FRED and therefore update when the underlying series update.</p>
+      </div>
+    </section>
+
+    <section id="conferences" class="section container">
+      <p class="section-kicker">Conferences</p>
+      <div class="section-head">
+        <h2>Economics conference tracker</h2>
+        <p>Useful live trackers for calls for papers, submission deadlines, conference dates, and locations.</p>
+      </div>
+      <div class="conference-grid">
+        <article class="conference-card featured">
+          <div class="conference-tag">Main tracker</div>
+          <h3>FAEConf</h3>
+          <p>An open tracker covering conferences and calls for papers across economics, finance, and accounting, with deadline-oriented listings.</p>
+          <div class="conference-actions">
+            <a class="button primary" href="https://www.faeconf.com/" target="_blank" rel="noopener">Open FAEConf ↗</a>
+            <a class="text-link" href="https://www.faeconf.com/economics-conference-deadlines-2027" target="_blank" rel="noopener">Economics 2027</a>
+          </div>
+        </article>
+        <article class="conference-card">
+          <div class="conference-tag">United States</div>
+          <h3>U.S. Conferences</h3>
+          <p>Browse upcoming finance, accounting, and economics conferences hosted in the United States, sorted around submission deadlines.</p>
+          <a class="text-link strong" href="https://www.faeconf.com/conferences-in-united-states" target="_blank" rel="noopener">View U.S. tracker ↗</a>
+        </article>
+        <article class="conference-card">
+          <div class="conference-tag">My workflow</div>
+          <h3>Deadline-first browsing</h3>
+          <p>I use conference trackers primarily to monitor calls for papers and submission deadlines while planning research presentations.</p>
+          <a class="text-link strong" href="https://www.faeconf.com/economics-conference-deadlines-2027" target="_blank" rel="noopener">View economics deadlines ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+      <div class="container contact-wrap">
+        <div>
+          <p class="section-kicker light">Contact</p>
+          <h2>Qiulan Tao</h2>
+          <p>PhD Student in Economics<br>Indiana University Bloomington</p>
+        </div>
+        <div class="contact-note">
+          <p><a class="contact-link" href="mailto:taoq@iu.edu">taoq@iu.edu</a></p>
+          <p><a class="contact-link" href="cv.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Qiulan Tao</span>
+      <span>Academic homepage.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
